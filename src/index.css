@@ -1,13 +1,158 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main {
+  width: 100%;
+  height: 285vh;
+  background-color: black;
+}
+
+.texts {
+  color: white;
+  width: 750px;
+  /* padding: 10px; */
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+.text2 {
+  filter: brightness(70%);
+
+  margin-top: 10px;
+  font-size: 10px;
+  width: 650px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.images {
+  padding: 0 340px;
+width: 100%;
+}
+
+.imagetext {
+  font-size: 10px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  filter: brightness(70%);
+}
+
+.users {
+  padding: 0 370px;
+width: 100%;
+}
+
+.userTexts {
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+  text-align: center;
+  filter: brightness(70%);
+
+}
+
+.projectext {
+  filter: brightness(70%);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+}
+.sptext{
+  color: azure;
+}
+.buttons{
+  font-size: 11px;
+  border: 1px solid;
+  border-color: white;
+  color: white;
+  width: 200px;
+  height: 30px;
+}
+.buttons1{
+  font-size: 11px;
+  border: 1px solid;
+  border-color: white;
+  color: black;
+  background-color: white;
+  width: 200px;
+  height: 30px;
+}
+.footer{
+  text-align: center;
+  color: white;
+  filter: brightness(70%);
+  font-size: 11px;
+
+}
+
+@media (max-width:900px) {
+  /* *{
+    overflow-x: hidden;
+  } */
+  .main {
+    width: 100%;
+    height: 255vh;
+    background-color: black;
+  }
+  .texts {
+    color: white;
+    width: 400px;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+  }.text2 {
+    filter: brightness(70%);
+  
+    margin-top: 20px;
+    font-size: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+  }
+  .images {
+    padding: 0 120px;
+  }
+  .users {
+    padding: 0 120px;
+  }
+  .projectext {
+    font-size: 11px;
+    padding: 30px;
+  }
+  .buttons{
+    font-size: 11px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    width: 130px;
+    height: 30px;
+  }
+  .buttons1{
+    font-size: 11px;
+    border: 1px solid;
+    border-color: white;
+    color: black;
+    background-color: white;
+    width: 130px;
+    height: 30px;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    filter: brightness(70%);
+    font-size: 7px;
+  
+  }
 }
