@@ -1,12 +1,13 @@
 import './App.css';
 import image from './fortnite-pictures-b5kfcchwazwiz3cs 1.png'
 import mask from './Mask group.png'
+import close from './line-md_menu-to-close-alt-transition.png'
 
 function App() {
   return (
     <div className='main'>
       <div className=' flex justify-end p-4'>
-        <div className='closebutton'>sghx</div>
+        <div className='closebutton'><img src={close} alt="" className='w-[37px] cursor-auto'/></div>
       </div>
       <div className='flex justify-center'>
         <div className='texts p-6'>
