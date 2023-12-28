@@ -74,7 +74,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='footer flex justify-center md:mt-48 mt-10'>
+      <div className='footer flex justify-center md:mt-48 mt-16'>
         <p>© 2019-2023 abcTechnology Solutions Pvt. Ltd. All Rights Reserved</p>
       </div>
     </div>
